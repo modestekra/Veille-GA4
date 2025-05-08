@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Google Analytics - Présentation</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#slide1">Définition et histirique</a></li>
+        <li><a href="#slide2">Utilité</a></li>
+        <li><a href="#slide3">Fonctionnement</a></li>
+        <li><a href="#slide4">Avantages</a></li>
+        <li><a href="#slide5">Confidentialité</a></li>
+        <li><a href="#slide6">Alternatives</a></li>
+        <li><a href="#slide7">Cookies Tiers</a></li>
+        <li><a href="#slide8">Conclusion</a></li>
+      </ul>
+    </nav>
+    <div class="groupe">Présenté par le groupe H</div>
+  </header>
+
+<!-- Slide 1 -->
+<section class="slide" id="slide1">
+    <div class="content">
+      <div class="text">
+        <h1>Google Analytics</h1>
+        <h2>Définition et histirique</h2>
+        <p>Google Analytics est un outil gratuit lancé par Google en 2005, suite au rachat de la société Urchin. À l’époque, c’était l’un des premiers services à proposer des statistiques web en temps réel, gratuitement.</p>
+        <p>Depuis, l’outil a connu plusieurs évolutions :</p>
+        <ul>
+          <li><strong>Urchin / Google Analytics classique (2005–2012)</strong> : basique, mais déjà puissant.</li>
+          <li><strong>Universal Analytics (UA) (2012–2023)</strong> : basé sur les sessions, il permettait de suivre les visiteurs sur plusieurs appareils.</li>
+          <li><strong>Google Analytics 4 (GA4) (depuis 2020, obligatoire depuis juillet 2023)</strong> : basé sur les événements, pensé pour un web multi-plateformes (web + apps) et une meilleure gestion de la confidentialité.</li>
+        </ul>
+        <p>Google Analytics est donc passé d’un outil de statistiques simple à une plateforme complète d’analyse comportementale, avec une vraie logique de produit marketing.</p>
+      </div>
+      <div class="image">
+        <img src="https://agencyanalytics.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fdfcvkz6j859j%2F7zHlEAiCh3pOSCoTdMY6kF%2F5d08caa067586dd6225ca93c39034e89%2FAutomated-Google-Analytics-Reporting.png&w=3840&q=75" alt="Illustration Google Analytics">
+      </div>
+    </div>
+  </section>
+  
+  <!-- Slide 2 -->
+  <section class="slide" id="slide2">
+    <div class="content">
+      <div class="text">
+        <h2>Utilité</h2>
+        <p>Il permet aux entreprises, aux développeurs et aux créateurs de sites web de :</p>
+        <ul>
+          <li>Mieux connaître leur audience.</li>
+          <li>Mesurer les performances d’un site ou d’une campagne.</li>
+          <li>Optimiser le contenu et l’expérience utilisateur.</li>
+          <li>Justifier des choix stratégiques avec des données concrètes.</li>
+        </ul>
+      </div>
+      <div class="image">
+        <img src="https://wpchannel.com/images/2021/01/google-analytics-1110x724.jpg" alt="Illustration audience web">
+      </div>
+    </div>
+  </section>
+  
+  <!-- Slide 3 -->
+  <section class="slide" id="slide3">
+    <div class="content">
+      <div class="text">
+        <h2>Fonctionnement de GA4</h2>
+        <p>GA4 ne fonctionne plus avec des pages vues et des sessions, mais avec une logique d’événements :</p>
+        <ul>
+          <li>Chaque action sur le site (clic, scroll, lecture, achat) est enregistrée comme un événement personnalisé.</li>
+          <li>Il n’y a plus de "taux de rebond", mais un taux d’engagement.</li>
+          <li>Les entonnoirs personnalisés permettent de visualiser le parcours des utilisateurs étape par étape.</li>
+        </ul>
+        <p>GA4 est aussi plus adapté au suivi entre appareils grâce à l’utilisation de l’ID utilisateur.</p>
+      </div>
+      <div class="image">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWDoUp5KKNe08ngRBrqhsxZiZz6AM813QOMuxAxIu7T3qYSx0u4ygM_8eA1tQhp7HY6vc&usqp=CAU" alt="Illustration fonctionnement GA4">
+      </div>
+    </div>
+  </section>
+  
+  <!-- Slide 4 -->
+  <section class="slide" id="slide4">
+    <div class="content">
+      <div class="text">
+        <h2>Avantages et inconvénients</h2>
+        <h3>Avantages :</h3>
+        <ul>
+          <li>Suivi plus précis et plus complet du comportement utilisateur.</li>
+          <li>Pensé pour fonctionner même sans cookies tiers.</li>
+          <li>Meilleure gestion de la confidentialité par défaut.</li>
+          <li>Intégration native avec BigQuery pour les analyses poussées.</li>
+        </ul>
+        <h3>Inconvénients :</h3>
+        <ul>
+          <li>Interface complexe pour les débutants.</li>
+          <li>Courbe d’apprentissage plus longue.</li>
+          <li>Certains rapports simples de UA ont disparu ou sont plus difficiles d’accès.</li>
+          <li>Dépendance à l’écosystème Google.</li>
+        </ul>
+      </div>
+      <div class="image">
+        <img src="https://microdesk.fr/wp-content/uploads/2021/03/avantages-et-inconvenients-micro-entreprise-1024x1024.jpg" alt="Avantages Inconvénients">
+      </div> 
+    </div>
+  </section>
+  
+  <!-- Slide 5 -->
+  <section class="slide" id="slide5">
+    <div class="content">
+      <div class="text">
+        <h2>Tendance de confidentialité</h2>
+        <p>Avec le RGPD et les lois sur la protection des données, les règles ont changé :</p>
+        <ul>
+          <li>Le consentement est obligatoire avant tout suivi.</li>
+          <li>Il faut être transparent sur l’usage des cookies.</li>
+          <li>GA4 anonymise automatiquement les adresses IP et propose des paramètres de conservation des données.</li>
+        </ul>
+        <p>Mais certains pays européens remettent en question la légalité de Google Analytics. D’où l’intérêt de connaître les alternatives.</p>
+      </div>
+      <div class="image">
+        <img src="https://nimonik.com/wp-content/uploads//cybersecurity-privacy-1024x683.jpg" alt="Confidentialité et RGPD">
+      </div>
+    </div>
+  </section>
+  
+  <!-- Slide 6 -->
+  <section class="slide" id="slide6">
+    <div class="content">
+      <div class="text">
+        <h2>Alternatives à Google Analytics</h2>
+        <p>Voici quelques alternatives qui respectent mieux la vie privée :</p>
+        <ul>
+          <li><strong>Matomo :</strong> hébergé, complet, RGPD.</li>
+          <li><strong>Plausible :</strong> open source, léger, sans cookies.</li>
+          <li><strong>Fathom :</strong> rapide, minimaliste, aucun cookie.</li>
+          <li><strong>Piwik PRO :</strong> version entreprise de Matomo, adaptée aux grandes structures.</li>
+        </ul>
+        <p>Comparé à GA4, ces alternatives sont souvent plus simples, mais parfois moins puissantes, sauf Matomo/Piwik PRO.</p>
+      </div>
+      <div class="image">
+        <img src="data:image/png;base64,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" alt="Outils alternatifs">
+      </div>
+    </div>
+  </section>
+  
+  <!-- Slide 7 -->
+  <section class="slide" id="slide7">
+    <div class="content">
+      <div class="text">
+        <h2>Impact de la fin des cookies tiers</h2>
+        <p>Les cookies tiers sont progressivement bloqués :</p>
+        <ul>
+          <li>Firefox et Safari les bloquent déjà,</li>
+          <li>Chrome va les supprimer en 2025.</li>
+        </ul>
+        <p>GA4 tente de compenser avec :</p>
+        <ul>
+          <li>Du machine learning,</li>
+          <li>Des outils de modélisation de conversion.</li>
+        </ul>
+        <blockquote>→ Il faut prévoir une stratégie de suivi basée sur le consentement, et des alternatives aux cookies.</blockquote>
+      </div>
+      <div class="image">
+        <img src="https://www.ziggourat.com/wp-content/uploads/2020/02/Rectangle-127-47.png" alt="Cookies tiers">
+      </div>
+    </div>
+  </section>
+  
+  <!-- Slide 8 -->
+  <section class="slide" id="slide8">
+    <div class="content">
+      <div class="text">
+        <h2>Conclusion</h2>
+        <p>Google Analytics 4 représente un gros changement : plus moderne, plus respectueux de la vie privée, mais aussi plus technique.</p>
+        <p>Il est crucial de :</p>
+        <ul>
+          <li>Comprendre comment ces outils collectent les données,</li>
+          <li>Savoir choisir l’outil adapté,</li>
+          <li>Et garder en tête les enjeux de confidentialité.</li>
+        </ul>
+        <!-- <p><strong>Merci de votre attention !</strong></p> -->
+      </div>
+      <div class="image">
+        <img src="https://lesonglesdelilie29.wordpress.com/wp-content/uploads/2017/05/mercidevotreattention.jpg" alt="Fin présentation développeurs">
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <button id="prev">Précédent</button>
+    <button id="next">Suivant</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
